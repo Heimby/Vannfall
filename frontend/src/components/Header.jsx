@@ -55,7 +55,7 @@ export const Header = () => {
           className="flex items-center gap-3 focus-ring rounded"
           onClick={(e) => { e.preventDefault(); scrollToSection('#hjem'); }}
         >
-          <VannfallLogo className="h-8 w-auto" />
+          <VannfallLogo className="h-10 w-auto" />
         </a>
 
         {/* Desktop Navigation */}

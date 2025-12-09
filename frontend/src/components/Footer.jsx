@@ -24,7 +24,7 @@ export const Footer = () => {
           {/* Brand Column */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <VannfallLogo className="h-7 w-auto" variant="inverted" />
+              <VannfallLogo className="h-9 w-auto" variant="inverted" />
             </div>
             <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-xs">
               Fornybar vannkraft. Profesjonelt utviklet. VannFall utvikler småkraftverk med fokus på balanserte avtaler og langsiktig verdiskaping.
