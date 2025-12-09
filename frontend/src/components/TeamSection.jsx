@@ -23,7 +23,7 @@ const teamMembers = [
     name: 'Andreas Strauss Voldsæter',
     role: 'GEOLOG OG UTVIKLER',
     bio: 'Bakgrunn fra geologi ved Universitetet i Bergen. Jobber systematisk for gode løsninger innen vannkraft.',
-    image: null
+    image: 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/mlrw8fzz_Andreas.jpg'
   },
   {
     name: 'Simon Aldal Sætre',
