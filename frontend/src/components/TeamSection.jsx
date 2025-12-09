@@ -4,32 +4,38 @@ const teamMembers = [
   {
     name: 'Kjartan Stornes',
     role: 'DAGLIG LEDER',
-    bio: 'Erfaring fra ulike bygge- og industriselskaper, både private og børsnoterte. Grunnlegger av VannFall AS.'
+    bio: 'Erfaring fra ulike bygge- og industriselskaper, både private og børsnoterte. Grunnlegger av VannFall AS.',
+    image: 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/7uxzez0u_Kjartan.png'
   },
   {
     name: 'Nils Hoff',
     role: 'STYRELEDER',
-    bio: 'CFO/COO i ulike teknologi- og infrastrukturselskaper. Bred erfaring fra børsnoterte selskaper nasjonalt og internasjonalt.'
+    bio: 'CFO/COO i ulike teknologi- og infrastrukturselskaper. Bred erfaring fra børsnoterte selskaper nasjonalt og internasjonalt.',
+    image: 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/wx2taseg_Nils.png'
   },
   {
     name: 'Johnny Christiansen',
     role: 'STYREMEDLEM',
-    bio: 'CEO i ulike teknologiselskaper. Erfaring fra både privateide og børsnoterte selskaper.'
+    bio: 'CEO i ulike teknologiselskaper. Erfaring fra både privateide og børsnoterte selskaper.',
+    image: 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/rjh8iwmh_Johnny.png'
   },
   {
     name: 'Andreas Strauss Voldsæter',
     role: 'GEOLOG OG UTVIKLER',
-    bio: 'Bakgrunn fra geologi ved Universitetet i Bergen. Jobber systematisk for gode løsninger innen vannkraft.'
+    bio: 'Bakgrunn fra geologi ved Universitetet i Bergen. Jobber systematisk for gode løsninger innen vannkraft.',
+    image: null
   },
   {
     name: 'Simon Aldal Sætre',
     role: 'STIKNINGSINGENIØR',
-    bio: 'Bred erfaring innen oppmåling med solid kompetanse i relevante programvareverktøy.'
+    bio: 'Bred erfaring innen oppmåling med solid kompetanse i relevante programvareverktøy.',
+    image: 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/1aeieikh_Simon.png'
   },
   {
     name: 'Jørn Christiansen',
     role: 'ØKONOMIANSVARLIG (CFO)',
-    bio: 'Erfaring som CFO/CEO i ulike teknologiselskaper, både nasjonalt og internasjonalt.'
+    bio: 'Erfaring som CFO/CEO i ulike teknologiselskaper, både nasjonalt og internasjonalt.',
+    image: 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/sa4umhh3_J%C3%B8rn.png'
   }
 ];
 
