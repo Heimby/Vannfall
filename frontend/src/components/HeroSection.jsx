@@ -31,7 +31,7 @@ export const HeroSection = () => {
       <div className="relative z-10 container-vannfall">
         <div className="max-w-2xl animate-fade-slide-up-delay-1">
           <h1 className="heading-display text-primary-foreground mb-6">
-            Norsk vannkraft. Profesjonelt utviklet.
+            Fornybar vannkraft. Profesjonelt utviklet.
           </h1>
         </div>
         

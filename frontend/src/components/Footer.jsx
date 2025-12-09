@@ -27,7 +27,7 @@ export const Footer = () => {
               <VannfallLogo className="h-7 w-auto" variant="inverted" />
             </div>
             <p className="text-sm leading-relaxed text-primary-foreground/60 max-w-xs">
-              Norsk vannkraft. Profesjonelt utviklet. VannFall utvikler småkraftverk med fokus på balanserte avtaler og langsiktig verdiskaping.
+              Fornybar vannkraft. Profesjonelt utviklet. VannFall utvikler småkraftverk med fokus på balanserte avtaler og langsiktig verdiskaping.
             </p>
           </div>
           
@@ -58,7 +58,7 @@ export const Footer = () => {
             </h4>
             <div className="space-y-2">
               <p className="text-[15px] text-primary-foreground/80">Kokstadvegen 46, 5257 Kokstad</p>
-              <p className="text-[15px] text-primary-foreground/80">Telefon: 12345678</p>
+              <p className="text-[15px] text-primary-foreground/80">Telefon: 906 00 986</p>
               <p className="text-[15px] text-primary-foreground/80">E-post: post@vannfall.com</p>
             </div>
           </div>

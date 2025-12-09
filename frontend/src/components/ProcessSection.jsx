@@ -5,7 +5,7 @@ const processSteps = [
   {
     number: '1',
     title: 'Grunneieravtale og fallrett',
-    content: 'Vi starter med å inngå en balansert grunneieravtale som sikrer dine rettigheter og gir deg forutsigbare inntekter. Avtalen omfatter leie av fallrettigheter, varighet, og hvordan falleie beregnes basert på produksjon. Vi bruker standardiserte kontrakter med lang erfaring fra bransjen.'
+    content: 'Vi starter med å inngå en balansert grunneieravtale som sikrer dine rettigheter og gir deg forutsigbare inntekter. Når VannFall inngår en grunneieravtale, har vi allerede økonomien på plass til å utvikle prosjektet. Avtalen omfatter leie av fallrettigheter, varighet, og hvordan falleie beregnes basert på produksjon. Vi bruker standardiserte kontrakter med lang erfaring fra bransjen.'
   },
   {
     number: '2',

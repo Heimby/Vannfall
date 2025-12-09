@@ -25,11 +25,21 @@ export const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission (mock)
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    // Create mailto link for form submission
+    const subject = encodeURIComponent(`Henvendelse fra ${formData.name}`);
+    const body = encodeURIComponent(
+      `Navn: ${formData.name}\n` +
+      `E-post: ${formData.email}\n` +
+      `Telefon: ${formData.phone}\n\n` +
+      `Melding:\n${formData.message}`
+    );
     
-    toast.success('Meldingen er sendt!', {
-      description: 'Vi tar kontakt med deg så snart som mulig.'
+    // Open email client
+    window.location.href = `mailto:post@vannfall.com?subject=${subject}&body=${body}`;
+    
+    // Show success message
+    toast.success('E-postklient åpnet!', {
+      description: 'Send e-posten for å fullføre henvendelsen.'
     });
     
     setFormData({ name: '', email: '', phone: '', message: '' });
@@ -58,7 +68,7 @@ export const ContactSection = () => {
               </div>
               <div className="flex items-center gap-4 text-primary-foreground">
                 <Phone className="w-6 h-6 text-secondary flex-shrink-0" strokeWidth={1.5} />
-                <span>12345678</span>
+                <span>906 00 986</span>
               </div>
               <div className="flex items-center gap-4 text-primary-foreground">
                 <Mail className="w-6 h-6 text-secondary flex-shrink-0" strokeWidth={1.5} />

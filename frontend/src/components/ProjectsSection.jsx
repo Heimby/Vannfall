@@ -18,13 +18,13 @@ const projects = [
   },
   {
     image: PROJECT_IMAGE_2,
-    label: 'KOMMENDE PROSJEKT',
-    description: 'Flere prosjekter er under utvikling. Vi utvider kontinuerlig vår portefølje av bærekraftige vannkraftverk.',
+    label: 'KREPPINGDALEN KRAFTVERK',
+    description: 'Et av våre kommende prosjekter under utvikling. Vi utvider kontinuerlig vår portefølje av bærekraftige vannkraftverk.',
     specs: [
       { label: 'Status', value: 'Under planlegging' },
       { label: 'Forventet', value: '2025' },
       { label: 'Metode', value: 'Boreprosjekt' },
-      { label: 'Lokasjon', value: 'TBA' },
+      { label: 'Lokasjon', value: 'Kreppingdalen' },
     ]
   }
 ];
