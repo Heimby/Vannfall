@@ -63,11 +63,19 @@ export const TeamSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="group">
-              {/* Image Placeholder */}
-              <div className="team-image flex items-center justify-center transition-transform duration-300 group-hover:scale-[1.02]">
-                <span className="text-primary-foreground/50 text-sm">
-                  {member.name.split(' ').map(n => n[0]).join('')}
-                </span>
+              {/* Image */}
+              <div className="team-image flex items-center justify-center transition-transform duration-300 group-hover:scale-[1.02] overflow-hidden">
+                {member.image ? (
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <span className="text-primary-foreground/50 text-sm">
+                    {member.name.split(' ').map(n => n[0]).join('')}
+                  </span>
+                )}
               </div>
               
               {/* Info */}
