@@ -140,12 +140,15 @@ frontend:
     working: "NA"
     file: "/app/frontend/src/components/ContactSection.jsx"
     stuck_count: 0
-    priority: "high"
+    priority: "medium"
     needs_retesting: true
     status_history:
       - working: "NA"
         agent: "testing"
         comment: "Need to test form submission, validation, and toast notification display"
+      - working: "NA"
+        agent: "testing"
+        comment: "Contact form not tested in this session as focus was on the specific requested changes (logo, values, process, approach sections, footer). Form testing can be done separately if needed."
 
   - task: "Process Section Accordion"
     implemented: true
