@@ -8,8 +8,8 @@ import ValuesSection from '@/components/ValuesSection';
 import ServicesSection from '@/components/ServicesSection';
 import LandownersSection from '@/components/LandownersSection';
 import ProcessSection from '@/components/ProcessSection';
+import ApproachSection from '@/components/ApproachSection';
 import TeamSection from '@/components/TeamSection';
-import ProjectsSection from '@/components/ProjectsSection';
 import PartnersSection from '@/components/PartnersSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -26,8 +26,8 @@ const HomePage = () => {
         <ServicesSection />
         <LandownersSection />
         <ProcessSection />
+        <ApproachSection />
         <TeamSection />
-        <ProjectsSection />
         <PartnersSection />
         <ContactSection />
       </main>

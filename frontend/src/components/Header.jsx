@@ -11,10 +11,10 @@ const navLinks = [
     href: '#prosess', 
     label: 'Hvordan vi jobber',
     dropdown: [
-      { href: '#grunneieravtale', label: 'Grunneieravtale og fallrett' },
-      { href: '#konsesjon', label: 'Utvikling av konsesjon' },
-      { href: '#dml', label: 'Utvikling av DML' },
-      { href: '#utbygging', label: 'Utbygging' },
+      { href: '#prosess', label: 'Uforpliktende dialog' },
+      { href: '#prosess', label: 'Grunneieravtale og fallrett' },
+      { href: '#prosess', label: 'Utvikling av konsesjon' },
+      { href: '#prosess', label: 'Utbygging' },
     ]
   },
   { href: '#team', label: 'Vårt team' },
@@ -55,7 +55,7 @@ export const Header = () => {
           className="flex items-center gap-3 focus-ring rounded"
           onClick={(e) => { e.preventDefault(); scrollToSection('#hjem'); }}
         >
-          <VannfallLogo className="h-10 w-auto" />
+          <VannfallLogo className="h-12 w-auto" />
         </a>
 
         {/* Desktop Navigation */}
@@ -79,9 +79,9 @@ export const Header = () => {
               {/* Dropdown Menu */}
               {link.dropdown && activeDropdown === link.href && (
                 <div className="absolute top-full left-0 mt-2 w-72 bg-card rounded-lg shadow-lg border border-border py-2 animate-fade-in">
-                  {link.dropdown.map((dropItem) => (
+                  {link.dropdown.map((dropItem, index) => (
                     <a
-                      key={dropItem.href}
+                      key={index}
                       href={dropItem.href}
                       onClick={(e) => { e.preventDefault(); scrollToSection(dropItem.href); }}
                       className="block px-5 py-3 text-sm font-medium text-foreground-secondary hover:bg-background hover:text-foreground transition-colors"
@@ -124,9 +124,9 @@ export const Header = () => {
                     </a>
                     {link.dropdown && (
                       <div className="pl-4">
-                        {link.dropdown.map((dropItem) => (
+                        {link.dropdown.map((dropItem, index) => (
                           <a
-                            key={dropItem.href}
+                            key={index}
                             href={dropItem.href}
                             onClick={(e) => { e.preventDefault(); scrollToSection(dropItem.href); }}
                             className="block py-3 px-2 text-base text-foreground-secondary border-b border-border/50"

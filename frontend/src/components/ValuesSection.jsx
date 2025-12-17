@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, CheckCircle, Leaf } from 'lucide-react';
+import { Shield, CheckCircle, Leaf, Handshake } from 'lucide-react';
 
 const values = [
   {
@@ -16,6 +16,11 @@ const values = [
     icon: Leaf,
     title: 'Naturansvar',
     description: 'Med boreprosjekter som hovedmetode minimerer vi naturinngrep. Kraftstasjonene skal gli naturlig inn i landskapet.'
+  },
+  {
+    icon: Handshake,
+    title: 'Samarbeid',
+    description: 'Vi er ute etter å finne gode løsninger sammen med grunneiere – ikke presse frem avtaler. Et uforpliktende møte er alltid første steg.'
   }
 ];
 
@@ -40,7 +45,7 @@ export const ValuesSection = () => {
         </p>
         
         {/* Values Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {values.map((value, index) => (
             <div key={index} className="value-card">
               <div className="w-12 h-12 rounded-full bg-primary-muted flex items-center justify-center mb-5">

@@ -4,21 +4,26 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 const processSteps = [
   {
     number: '1',
-    title: 'Grunneieravtale og fallrett',
-    content: 'Vi starter med å inngå en balansert grunneieravtale som sikrer dine rettigheter og gir deg forutsigbare inntekter. Når VannFall inngår en grunneieravtale, har vi allerede økonomien på plass til å utvikle prosjektet. Avtalen omfatter leie av fallrettigheter, varighet, og hvordan falleie beregnes basert på produksjon. Vi bruker standardiserte kontrakter med lang erfaring fra bransjen.'
+    title: 'Uforpliktende dialog',
+    content: 'Alt starter med en uforpliktende samtale. Vi ønsker å skape dialog med grunneiere for å forstå området og finne ut hva som kan være en god løsning for det aktuelle kraftverket. Grunneiere kjenner sitt område best, og sammen finner vi de beste mulighetene.'
   },
   {
     number: '2',
+    title: 'Grunneieravtale og fallrett',
+    content: 'Når vi er enige om veien videre, inngår vi en balansert grunneieravtale som sikrer dine rettigheter og gir deg forutsigbare inntekter. Når VannFall inngår en avtale, har vi allerede økonomien på plass til å utvikle prosjektet. Avtalen omfatter leie av fallrettigheter, varighet, og hvordan falleie beregnes basert på produksjon.'
+  },
+  {
+    number: '3',
     title: 'Utvikling av konsesjon',
     content: 'Vi håndterer hele konsesjonsprosessen med NVE (Norges vassdrags- og energidirektorat). Dette inkluderer kartlegging av naturforhold, miljøkonsekvensutredninger, og dialog med lokale myndigheter. Du holdes informert gjennom hele prosessen.'
   },
   {
-    number: '3',
+    number: '4',
     title: 'Detaljert miljø- og landskapsplan (DML)',
     content: 'DML-planen sikrer at utbyggingen tar hensyn til miljø og landskap. Vi utarbeider detaljerte planer for hvordan kraftverket skal integreres i omgivelsene, inkludert byggesøknad og nødvendige godkjenninger fra kommunen.'
   },
   {
-    number: '4',
+    number: '5',
     title: 'Utbygging og drift',
     content: 'Vi samarbeider med lokale og nasjonale entreprenører for selve byggingen. Typisk byggetid er 18-24 måneder. Etter ferdigstillelse overtar vi drift og vedlikehold, og du mottar din andel av inntektene som avtalt.'
   }
@@ -26,7 +31,7 @@ const processSteps = [
 
 export const ProcessSection = () => {
   return (
-    <section id="prosess" className="section-padding bg-background">
+    <section id="prosess" className="section-padding bg-surface">
       <div className="container-vannfall">
         {/* Section Label */}
         <div className="section-label">
@@ -41,7 +46,7 @@ export const ProcessSection = () => {
         
         {/* Description */}
         <p className="body-large max-w-2xl mb-14">
-          Som samarbeidspartner hos VannFall blir du tett involvert i prosessen. Vi legger vekt på åpen kommunikasjon og jevnlig oppdatering.
+          Som samarbeidspartner hos VannFall blir du tett involvert i prosessen. Vi legger vekt på åpen kommunikasjon, jevnlig oppdatering, og ikke minst – å finne løsninger som fungerer for alle parter.
         </p>
         
         {/* Accordion */}
