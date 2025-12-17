@@ -197,15 +197,18 @@ frontend:
 
   - task: "Section Navigation and Smooth Scrolling"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/components/Header.jsx"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "testing"
         comment: "Need to test smooth scrolling to all sections via navigation links"
+      - working: true
+        agent: "testing"
+        comment: "✅ Smooth scrolling navigation working correctly. Successfully tested navigation to #om-oss and #prosess sections. Minor: #var-tilnarming navigation link not found in header menu but section exists and is accessible."
 
 metadata:
   created_by: "testing_agent"
