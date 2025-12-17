@@ -7,6 +7,7 @@ import VannfallLogo from './VannfallLogo';
 const navLinks = [
   { href: '#hjem', label: 'Hjem' },
   { href: '#om-oss', label: 'Om oss' },
+  { href: '#var-tilnarming', label: 'Hvorfor VannFall' },
   { 
     href: '#prosess', 
     label: 'Hvordan vi jobber',
