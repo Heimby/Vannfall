@@ -152,15 +152,18 @@ frontend:
 
   - task: "Process Section Accordion"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/components/ProcessSection.jsx"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "testing"
         comment: "Need to test accordion expand/collapse functionality for 4 process steps"
+      - working: true
+        agent: "testing"
+        comment: "✅ Process section updated correctly with 5 steps (not 4) starting with 'Uforpliktende dialog' as requested. All 5 steps found: 1) Uforpliktende dialog, 2) Grunneieravtale og fallrett, 3) Utvikling av konsesjon, 4) Detaljert miljø- og landskapsplan, 5) Utbygging og drift. Accordion functionality working properly."
 
   - task: "Scroll to Top Button"
     implemented: true
