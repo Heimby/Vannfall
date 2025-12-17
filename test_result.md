@@ -277,13 +277,13 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Header Navigation and Sticky Behavior"
-    - "Hero Section Interactions"
-    - "Contact Form Functionality"
-    - "Section Navigation and Smooth Scrolling"
-    - "Responsive Design"
+    - "Larger Logo Implementation"
+    - "Values Section Update - 4 Cards with Samarbeid"
+    - "Process Section Update - 5 Steps with Uforpliktende Dialog"
+    - "New Hvorfor VannFall Section"
+    - "Footer Updates"
   stuck_tasks: []
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
