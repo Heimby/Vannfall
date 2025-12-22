@@ -31,7 +31,7 @@ const processSteps = [
 
 export const ProcessSection = () => {
   return (
-    <section id="prosess" className="section-padding bg-surface">
+    <section id="prosess" className="section-padding bg-background">
       <div className="container-vannfall">
         {/* Section Label */}
         <div className="section-label">

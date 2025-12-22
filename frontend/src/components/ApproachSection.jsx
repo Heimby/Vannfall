@@ -27,7 +27,7 @@ const differentiators = [
 
 export const ApproachSection = () => {
   return (
-    <section id="var-tilnarming" className="section-padding bg-background">
+    <section id="var-tilnarming" className="section-padding bg-surface">
       <div className="container-vannfall">
         {/* Section Label */}
         <div className="section-label">

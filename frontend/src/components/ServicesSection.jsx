@@ -27,7 +27,7 @@ const services = [
 
 export const ServicesSection = () => {
   return (
-    <section id="tjenester" className="section-padding bg-background">
+    <section id="tjenester" className="section-padding bg-surface">
       <div className="container-vannfall">
         {/* Section Label */}
         <div className="section-label">

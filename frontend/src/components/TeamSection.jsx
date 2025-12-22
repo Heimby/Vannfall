@@ -41,7 +41,7 @@ const teamMembers = [
 
 export const TeamSection = () => {
   return (
-    <section id="team" className="section-padding bg-surface">
+    <section id="team" className="section-padding bg-background">
       <div className="container-vannfall">
         {/* Section Label */}
         <div className="section-label">
