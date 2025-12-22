@@ -6,7 +6,7 @@ const differentiators = [
   {
     icon: Lightbulb,
     title: 'Nytenkende tilnærming',
-    description: 'Historisk har vannkraftbransjen vært trangsynt de siste 20-30 årene. Vi kommer inn for å fornye og effektivisere utviklingen av vannkraft – samtidig som det holdes profesjonelt og nøyaktig utarbeidet.'
+    description: 'Historisk har vannkraftbransjen brukt tradisjonelle modeller de siste 20 årene. Vi kommer inn for å fornye og effektivisere utviklingen av vannkraft – samtidig som det holdes profesjonelt og nøyaktig utarbeidet.'
   },
   {
     icon: Target,
@@ -21,7 +21,7 @@ const differentiators = [
   {
     icon: CheckCheck,
     title: 'Reell gjennomføring',
-    description: 'Vi samler ikke avtaler – vi gjennomfører prosjekter. Med solid backing fra store pensjonsfond har vi kapasitet og kapital til å realisere hvert eneste prosjekt vi går inn i.'
+    description: 'Vi samler ikke avtaler – vi gjennomfører prosjekter. Med god investering fra profesjonelle investorer har vi kapasitet og kapital til å realisere hvert eneste prosjekt vi går inn i.'
   }
 ];
 

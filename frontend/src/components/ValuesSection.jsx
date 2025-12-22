@@ -10,7 +10,7 @@ const values = [
   {
     icon: CheckCircle,
     title: 'Profesjonalitet',
-    description: 'Vi skiller oss fra "cowboy-aktørene" gjennom strukturerte prosesser, grundig planlegging og solid kapitalbase.'
+    description: 'Vi skiller oss fra mindre seriøse aktører gjennom strukturerte prosesser, grundig planlegging og solid kapitalbase.'
   },
   {
     icon: Leaf,
