@@ -24,13 +24,18 @@ export const PartnersSection = () => {
         
         {/* Partner Logo */}
         <div className="inline-flex flex-col items-center gap-5">
-          <div className="bg-card rounded-lg p-6 shadow-sm border border-border/50">
+          <a 
+            href="https://smakraftforeninga.no" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-card rounded-lg p-6 shadow-sm border border-border/50 hover:shadow-md transition-shadow"
+          >
             <img 
               src={SMAKRAFTFORENINGA_LOGO}
               alt="Småkraftforeninga"
               className="h-16 w-auto object-contain"
             />
-          </div>
+          </a>
           <p className="text-sm text-foreground-secondary max-w-md leading-relaxed">
             Småkraftforeninga jobber for å sikre gode betingelser og rammevilkår for de som eier fallrettigheter og driver småkraftverk i Norge.
           </p>
