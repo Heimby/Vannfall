@@ -53,10 +53,10 @@ export const Header = () => {
         {/* Logo */}
         <a 
           href="#hjem" 
-          className="flex items-center gap-3 focus-ring rounded"
+          className="flex items-center gap-3 focus-ring rounded py-1"
           onClick={(e) => { e.preventDefault(); scrollToSection('#hjem'); }}
         >
-          <VannfallLogo className="h-12 w-auto" />
+          <VannfallLogo className="h-14 w-auto" />
         </a>
 
         {/* Desktop Navigation */}
