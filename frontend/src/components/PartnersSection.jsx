@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SMAKRAFTFORENINGA_LOGO = 'https://customer-assets.emergentagent.com/job_waterfall-design/artifacts/ou8yizl0_Sma%CC%8Akraftforeninga%20lang%20logo_upscayl_4x_upscayl-standard-4x.png';
+const SMAKRAFTFORENINGA_LOGO = 'https://placehold.co/400x100/002448/75988d?text=Småkraftforeninga';
 
 export const PartnersSection = () => {
   return (
