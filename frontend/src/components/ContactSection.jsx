@@ -49,7 +49,7 @@ export const ContactSection = () => {
   return (
     <section id="kontakt" className="section-padding bg-dark">
       <div className="container-vannfall">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className="grid grid-cols-1 gap-12 lg:gap-16">
           {/* Contact Info */}
           <div>
             <h2 className="heading-section text-primary-foreground max-w-lg mb-6">
@@ -97,7 +97,7 @@ export const ContactSection = () => {
             </div>
           </div>
           {/* Contact Form */}
-          <Card className="card-shadow-floating border-0">
+          {/* <Card className="card-shadow-floating border-0">
             <CardContent className="p-8 sm:p-10">
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
@@ -172,7 +172,7 @@ export const ContactSection = () => {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
